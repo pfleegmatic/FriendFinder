@@ -6,13 +6,24 @@
 
 		<!-- stylesheet -->
 		<!--<link rel="stylesheet" type="text/css" href="/static/survey-styles.css"></style> -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		
-		<!-- css and Javascript CDN -->
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+		<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+
+		<!-- css and Javascript CDN 
 	  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	  	
 	  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
-	  	<script src="https://code.jquery.com/jquery.js"></script>
+	  	<script src="https://code.jquery.com/jquery.js"></script>-->
 		
 		<!-- skeleton stylesheet -->
 		<link rel="stylesheet" type="text/css" href="/static/skeleton.css"></style>
@@ -21,8 +32,15 @@
 
 		
 		<!-- Chosen -->
-	  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
-	  	<script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
+	  	<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
+	  	
+	  	<script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>-->
+
+		<script rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.8.2/chosen.jquery.min.js"></script>
+
+	  	<script src ="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.8.2/chosen.jquery.min.js"></script>
+
+
 
 	
 	</head>
@@ -41,94 +59,94 @@
 			      <label for="image">Insert link here to your photo.</label>
 			      <input class="u-full-width" type="text" id="image">
 	
-			      <label for="q1">You have a strong fascination with paleontology.</label>
+			      <label for="q1">1) You have a strong fascination with paleontology.</label>
 			      <select class="u-half-width" id="q1">
-			        <option value="1">1 (Strongly Disagree)</option>
-			        <option value="2">2 (Somewhat Disagree</option>
-			        <option value="3">3 (Neutral)</option>
-			        <option value="4">4 (Somewhat Agree</option>
-			        <option value="5">5 (Strongly Agree)</option>
+			        <option value="1">1 Strongly Disagree</option>
+			        <option value="2">2 Somewhat Disagree</option>
+			        <option value="3">3 Neutral</option>
+			        <option value="4">4 Somewhat Agree</option>
+			        <option value="5">5 Strongly Agree</option>
 			      </select>
 	
-			      <label for="q2">Thanksgiving is coming, would you wear a turkey with sunglasses on your head for a loved one?</label>
+			      <label for="q2">2) Thanksgiving is coming, would you wear a turkey with sunglasses on your head for a loved one?</label>
 			      <select class="u-half-width" id="q2">
-			        <option value="1">1 (Strongly Disagree)</option>
-			        <option value="2">2 (Somewhat Disagree</option>
-			        <option value="3">3 (Neutral)</option>
-			        <option value="4">4 (Somewhat Agree</option>
-			        <option value="5">5 (Strongly Agree)</option>
+			        <option value="1">1 Strongly Disagree</option>
+			        <option value="2">2 Somewhat Disagree</option>
+			        <option value="3">3 Neutral</option>
+			        <option value="4">4 Somewhat Agree</option>
+			        <option value="5">5 Strongly Agree</option>
 			      </select>
 	
-			      <label for="q3">Are you one to eat a co-worker's lunch left in the office fridge with his/her name on it?</label>
+			      <label for="q3">3) Are you one to eat a co-worker's lunch left in the office fridge with his/her name on it?</label>
 			      <select class="u-half-width" id="q3">
-			        <option value="1">1 (Strongly Disagree)</option>
-			        <option value="2">2 (Somewhat Disagree</option>
-			        <option value="3">3 (Neutral)</option>
-			        <option value="4">4 (Somewhat Agree</option>
-			        <option value="5">5 (Strongly Agree)</option>
+			        <option value="1">1 Strongly Disagree</option>
+			        <option value="2">2 Somewhat Disagree</option>
+			        <option value="3">3 Neutral</option>
+			        <option value="4">4 Somewhat Agree</option>
+			        <option value="5">5 Strongly Agree</option>
 			      </select>
 	
-			      <label for="q4">We're going to hang out on a couch at a coffee shop like Central Perk, everyday.</label>
+			      <label for="q4">4) We're going to hang out on a couch at a coffee shop like Central Perk, everyday.</label>
 			      <select class="u-half-width" id="q4">
-			        <option value="1">1 (Strongly Disagree)</option>
-			        <option value="2">2 (Somewhat Disagree</option>
-			        <option value="3">3 (Neutral)</option>
-			        <option value="4">4 (Somewhat Agree</option>
-			        <option value="5">5 (Strongly Agree)</option>
+			        <option value="1">1 Strongly Disagree</option>
+			        <option value="2">2 Somewhat Disagree</option>
+			        <option value="3">3 Neutral</option>
+			        <option value="4">4 Somewhat Agree</option>
+			        <option value="5">5 Strongly Agree</option>
 			      </select>
 	
-			      <label for="q5">You are most willing to sing your version of the song "smelly cat, not your fault" aloud to a general audience.</label>
+			      <label for="q5">5) You are most willing to sing your version of the song "smelly cat, not your fault" aloud to a general audience.</label>
 			      <select class="u-half-width" id="q5">
-			        <option value="1">1 (Strongly Disagree)</option>
-			        <option value="2">2 (Somewhat Disagree</option>
-			        <option value="3">3 (Neutral)</option>
-			        <option value="4">4 (Somewhat Agree</option>
-			        <option value="5">5 (Strongly Agree)</option>
+			        <option value="1">1 Strongly Disagree</option>
+			        <option value="2">2 Somewhat Disagree</option>
+			        <option value="3">3 Neutral</option>
+			        <option value="4">4 Somewhat Agree</option>
+			        <option value="5">5 Strongly Agree</option>
 			      </select>
 	
-			      <label for="q6">After a break-up, you use your free time to make jam/preserves or take up a hobby to reflect and consider things.</label>
+			      <label for="q6">6) After a break-up, you use your free time to make jam/preserves or take up a hobby to reflect and consider things.</label>
 			      <select class="u-half-width" id="q6">
-			        <option value="1">1 (Strongly Disagree)</option>
-			        <option value="2">2 (Somewhat Disagree</option>
-			        <option value="3">3 (Neutral)</option>
-			        <option value="4">4 (Somewhat Agree</option>
-			        <option value="5">5 (Strongly Agree)</option>
+			        <option value="1">1 Strongly Disagree</option>
+			        <option value="2">2 Somewhat Disagree</option>
+			        <option value="3">3 Neutral</option>
+			        <option value="4">4 Somewhat Agree</option>
+			        <option value="5">5 Strongly Agree</option>
 			      </select>
 	
-			      <label for="q7">Chandler says,"I say more dumb things before 9 a.m. than most people say all day". You?</label>
+			      <label for="q7">7) Chandler says,"I say more dumb things before 9 a.m. than most people say all day". You?</label>
 			      <select class="u-half-width" id="q7">
-			        <option value="1">1 (Strongly Disagree)</option>
-			        <option value="2">2 (Somewhat Disagree</option>
-			        <option value="3">3 (Neutral)</option>
-			        <option value="4">4 (Somewhat Agree</option>
-			        <option value="5">5 (Strongly Agree)</option>
+			        <option value="1">1 Strongly Disagree</option>
+			        <option value="2">2 Somewhat Disagree</option>
+			        <option value="3">3 Neutral</option>
+			        <option value="4">4 Somewhat Agree</option>
+			        <option value="5">5 Strongly Agree</option>
 			      </select>
 	
-			      <label for="q8">At the beach, your friend gets stung by a jellyfish, are you the kind of friend who steps up to the plate to... relieve that pain? </label>
+			      <label for="q8">8) At the beach, your friend gets stung by a jellyfish, are you the kind of friend who steps up to the plate to... relieve that pain? </label>
 			      <select class="u-half-width" id="q8">
-			        <option value="1">1 (Strongly Disagree)</option>
-			        <option value="2">2 (Somewhat Disagree</option>
-			        <option value="3">3 (Neutral)</option>
-			        <option value="4">4 (Somewhat Agree</option>
-			        <option value="5">5 (Strongly Agree)</option>
+			        <option value="1">1 Strongly Disagree</option>
+			        <option value="2">2 Somewhat Disagree</option>
+			        <option value="3">3 Neutral</option>
+			        <option value="4">4 Somewhat Agree</option>
+			        <option value="5">5 Strongly Agree</option>
 			      </select>
 	
-			      <label for="q9">Joey Tribiani threw a girl's wooden leg in the fire once. What are friends for right?</label>
+			      <label for="q9">9) Joey Tribiani threw a girl's wooden leg in the fire once. What are friends for right?</label>
 			      <select class="u-half-width" id="q9">
-			        <option value="1">1 (Strongly Disagree)</option>
-			        <option value="2">2 (Somewhat Disagree</option>
-			        <option value="3">3 (Neutral)</option>
-			        <option value="4">4 (Somewhat Agree</option>
-			        <option value="5">5 (Strongly Agree)</option>
+			        <option value="1">1 Strongly Disagree</option>
+			        <option value="2">2 Somewhat Disagree</option>
+			        <option value="3">3 Neutral</option>
+			        <option value="4">4 Somewhat Agree</option>
+			        <option value="5">5 Strongly Agree</option>
 			      </select>
 	
-			      <label for="q10">For Halloween and for a bet friends have wagered on, are you down to arm wrestle in a pink bunny suit and your friend in a Spud-nik outfit? </label>
+			      <label for="q10">10) For Halloween and for a bet friends have wagered on, are you down to arm wrestle in a pink bunny suit and your friend in a Spud-nik outfit? </label>
 			      <select class="u-half-width" id="q10">
-			        <option value="1">1 (Strongly Disagree)</option>
-			        <option value="2">2 (Somewhat Disagree</option>
-			        <option value="3">3 (Neutral)</option>
-			        <option value="4">4 (Somewhat Agree</option>
-			        <option value="5">5 (Strongly Agree)</option>
+			        <option value="1">1 Strongly Disagree</option>
+			        <option value="2">2 Somewhat Disagree</option>
+			        <option value="3">3 Neutral</option>
+			        <option value="4">4 Somewhat Agree</option>
+			        <option value="5">5 Strongly Agree</option>
 			      </select>
 	
 			      <div class="twelve columns">
@@ -176,13 +194,51 @@
 	</body>
 	
 	  <script type="text/javascript">
+
+// $(document).ready(function() {
+// 	        for (var i = 0; i < 10; i++) {
+// 	            $('#q' + i).val('')
+// 	        };
+	
+// 	    $("#submit").on("click", function() {
+// 	        var userData = {
+// 	            name: $('#name').val().trim(),
+// 	            profilePic: $('#photo').val().trim(),
+// 	            scores: []
+// 	        };
+	
+// 	        for (var i = 0; i < 10; i++) {
+// 	            var value = $('#q' + i).val();
+// 	            newFriend.scores.push(value);
+// 	        }
+	
+// 	        var currentURL = window.location.origin;
+	
+// 	        $.post(currentURL + "/api/friends", userData, function(data) {
+// 	            $("#matchName").text(data.name);
+// 	            $("#matchImage").attr("src", data.photo);
+// 	        });
+	
+// 	        $('.modal').modal();
+	
+// 	        $('#name').val("");
+// 	        $('#photo').val("");
+	
+// 	        for (var i = 0; i < 10; i++) {
+// 	            $('#q' + i).val('')
+// 	        };
+// 	    });
+// 	});
+
+
+
 	
 	  // Chosen CSS
 	    var config = {
 	      ".chosen-select": {},
 	      ".chosen-select-deselect": { allow_single_deselect: true },
 	      ".chosen-select-no-single": { disable_search_threshold: 10 },
-	      ".chosen-select-no-results": { no_results_text: "No results found!" },
+	      ".chosen-select-no-results": { no_results_text: "No results found" },
 	      ".chosen-select-width": { width: "95%" }
 	    };
 	
@@ -237,11 +293,12 @@
 	        // AJAX post the data to the friends API.
 	        $.post(currentURL + "/api/friends", userData, function(data) {
 	
-	          // Grab the result from the AJAX post so that the best match's name and photo are displayed.
+	          // Grab result from the AJAX post so that the best match's name and photo are displayed.
 	          $("#matchName").text(data.name);
 	          $("#matchImage").attr("src", data.photo);
 	
-	          // Show the modal with the best match
+	          // Display the modal best match
+//$("#resultsModal").modal("toggle");
 	          $("#resultsModal").modal("toggle");
 	
 	        });
